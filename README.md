@@ -19,64 +19,64 @@ HabVol Code
 ---------------------------------------------------------------------------------------------------------
 HabVol Open Source Code
 
-
+-
 HabVol_License.txt
 
 License file. This license was based on the ROMS license. Please note that this license applies to all sections of LTRANS v.2b except those listed in the 'External Dependencies and Programs' section below. 
 
-
+-
 /HabVol
 
 HabVol Code. This folder contains the HabVol code and license. Before using LTRANS v.2b, please read the External Dependencies and Programs section below. This version of LTRANS is parameterized to run with the input files that are available in the HabVol Example Input Files section below, which also contains a tar ball with this code and the example input files.
 
-
+-
 HabVol_UsersGuide_17June13.pdf
 
 This is the latest version of the HabVol User's Guide.
 
 
-
+-
 External Dependencies and Programs
 
 HabVol requires NetCDF libraries. Because HabVol reads in ROMS-generated NetCDF (.nc) files, it requires that the appropriate NetCDF libraries be installed on your computer (see files and links below).
 
-
+-
 VF-NetCDF.zip
 http://northweb.hpl.umces.edu/LTRANS/LTRANS-v2/VF-NetCDF.zip
 
 Windows Visual Fortran NetCDF libraries. These NetCDF files that are compatible with Visual Fortran were downloaded from the Unidata NetCDF Binaries Website for LTRANS v.1. The NetCDF 90 files were downloaded from Building the F90 API for Windows for the Intel ifort compiler website. The VF-NetCDF.zip folder contains README.txt that describes where to place the enclosed files. If these files do not work, you may have to download updated versions or build your own by following the instructions at the UCAR Unidata NetCDF website. 
 
-
+-
 NetCDF website
 http://www.unidata.ucar.edu/software/netcdf/
 
 Linux NetCDF libraries. Linux users will likely have to build their own Fortran 90 libraries using the source code/binaries that are available on the UCAR Unidata NetCDF website. 
 
 
-
+-
 HabVol Example Input Files
 
 These files can be used to test HabVol. They include example ROMS grid and history files (.nc) that are needed to run HabVol. Many thanks to Yun Lifor sharing the ROMS .nc files. TheHabVol code above is configured to run with these input files. Note: please download the tar (HabVol.tgz) and history file between the hours of 5 pm and 6 am Eastern Standard Time because of their large size.
 
-
+-
 CBP_GRID_wUV.nc
 http://northweb.hpl.umces.edu/open_source_code/HabVol/Input/CPB_GRID_wUV.nc
 
 ROMS grid file (for HabVol input). File is from the Chesapeake Bay ROMS model with simplified biogeochemistry (implemented by Yun Li and Ming Li). 
 
-
+-
 ly04_0351.nc
 http://northweb.hpl.umces.edu/open_source_code/HabVol/Input/ly04_0351.nc
 
 ROMS predictions (history) file (for HabVol input). File is from the Chesapeake Bay ROMS model with simplified biogeochemistry (implemented by Yun Li and Ming Li). 
 
-
+-
 HabitatVolumeBoundary.csv	
 http://northweb.hpl.umces.edu/open_source_code/HabVol/Input/HabitatVolumeBoundary.csv
 
 Input file that contains the latitude and longitude coordinates that specify the boundaries of the Habitat Volume Model (if they are a subset of the ROMS model domain).
 
-
+-
 STD_Volumes.csv
 http://northweb.hpl.umces.edu/open_source_code/HabVol/Output/STD_Volumes.csv
 StTp_Volumes.csv
@@ -86,7 +86,7 @@ http://northweb.hpl.umces.edu/open_source_code/HabVol/Output/output_variable_def
 
 HabVol output files for this test case (.csv) and a description of the variables that appear in them (.txt).
 
-
+-
 HabVol.tgz
 http://northweb.hpl.umces.edu/open_source_code/HabVol/HabVol.tgz
 
@@ -94,7 +94,8 @@ This tar ball (0.5 GB) contains the LTRANS code as well as all example input fil
 
 
 
-HabVol User's Guide and Bug Reoports -----------------------------------------------------------------------------------
+HabVol User's Guide and Bug Reoports 
+-----------------------------------------------------------------------------------
 Please send comments or suggestions regarding the User's Guide and Bug Reports to enorth@umces.edu. 
 
 
@@ -113,7 +114,8 @@ Bug fix for special case (edge of habitat) calculations, "pie problem", by Katha
 
  
  
-HabVol Publications -------------------------------------------------------------------------------------------------------------------
+Other HabVol Publications
+-------------------------------------------------------------------------------------------------------------------
 
 Schlenger, A. J. , E. W. North, Z. Schlag, Y. Li, D. H. Secor, K. A. Smith, and E. J. Niklitschek. 2013. Modeling the influence of hypoxia on the potential habitat of Atlantic sturgeon (Acipenser oxyrinchus): a comparison of two methods. Marine Ecology Progress Series 483:257-272. To request a .pdf, please contact aschleng@umces.edu.
 

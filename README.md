@@ -22,8 +22,7 @@ HabVol_License.txt
 
 License file. This license was based on the ROMS license. Please note that this license applies to all sections of LTRANS v.2b except those listed in the 'External Dependencies and Programs' section below. 
 
-/HabVol.zip
-
+/HabVol
 HabVol Code. This folder contains the HabVol code and license. Before using LTRANS v.2b, please read the External Dependencies and Programs section below. This version of LTRANS is parameterized to run with the input files that are available in the HabVol Example Input Files section below, which also contains a tar ball with this code and the example input files.
 
 HabVol_UsersGuide_17June13.pdf

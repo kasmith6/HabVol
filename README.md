@@ -3,8 +3,7 @@ Habitat Volume Model
 
 Estimating habitat volume of living resources using three-dimensional circulation and biogeochemical models
 
-Katharine A. Smith, Zachary Schlag, Elizabeth W. North
-Computers and Geosciences, 2018
+Katharine A. Smith, Zachary Schlag, Elizabeth W. North. 2018. Computers and Geosciences.
 
 HabVol Model Description
 -----------------------------------------------------------------------------------------------------

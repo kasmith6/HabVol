@@ -94,7 +94,7 @@ This tar ball (0.5 GB) contains the LTRANS code as well as all example input fil
 
 
 
-HabVol User's Guide and Bug Reoports 
+HabVol User's Guide and Bug Reports 
 -----------------------------------------------------------------------------------
 Please send comments or suggestions regarding the User's Guide and Bug Reports to enorth@umces.edu. 
 

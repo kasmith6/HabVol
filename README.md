@@ -17,7 +17,7 @@ Zachary Schlag is the developer of HabVol with input from Katharine Smith, Adam 
 
 HabVol Code
 ---------------------------------------------------------------------------------------------------------
-HabVol Open Source Code
+HabVol Open Source Code, license, and user's guide, all posted in this GitHub repository
 
 -
 HabVol_License.txt

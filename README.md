@@ -37,7 +37,7 @@ This is the latest version of the HabVol User's Guide.
 
 -
 External Dependencies and Programs
-
+----------------------------------------------------------------------------------------------------------
 HabVol requires NetCDF libraries. Because HabVol reads in ROMS-generated NetCDF (.nc) files, it requires that the appropriate NetCDF libraries be installed on your computer (see files and links below).
 
 -
